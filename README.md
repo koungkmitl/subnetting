@@ -1,7 +1,5 @@
 # subnetting
 
-## Details
-
 [Download subnetting.exe v0.1.1](https://github.com/pe3zx/subnetting/releases/tag/v0.1.1)
 
 Subnetting is python-based CLI program that provides capability for subnetting IPv4.

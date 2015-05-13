@@ -1,7 +1,7 @@
 # -*- mode: python -*-
 a = Analysis(['src/new_subnet.py'],
-             pathex=['D:\\Python27\\Libs\\site-packages'],
-             hiddenimports=['netaddr', 'bisect'],
+             pathex=['C:\\Python27\\Libs\\site-packages'],
+             hiddenimports=['netaddr'],
              hookspath=None,
              runtime_hooks=None)
 pyz = PYZ(a.pure)

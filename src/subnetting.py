@@ -44,7 +44,7 @@ def main():
     global networkaddr
     networkaddr = []
     amount = []
-    ip = IPNetwork(raw_input("Enter IP Address with subnet mask: "))
+    ip = IPNetwork(raw_input("Enter IP Address with subnet mask (e.g. 192.168.0.0/20): "))
     subnet_amount = input("Enter amount of subnet: ")
     for i in xrange(subnet_amount):
         amount.append(input("Enter amount of hosts: "))

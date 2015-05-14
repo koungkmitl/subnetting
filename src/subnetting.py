@@ -3,8 +3,7 @@
 
 from netaddr import *
 from bisect import bisect_left, bisect_right
-import pprint
-import sys
+import os
 
 def usedMask(number):
     i = 1
@@ -57,6 +56,7 @@ def main():
         # print '========== Subnet table =========='
         print '%s\t\t%s\t\t%s\t\t%s' % (result.network, result.broadcast, result.netmask, result.prefixlen)
         # print '=================================='
+    os.system('pause')
 
 if __name__ == "__main__":
     main()
